@@ -1,0 +1,47 @@
+.report-summary-container {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.report-summary-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.report-summary-container section {
+    margin-bottom: 2rem;
+}
+
+.report-summary-container table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 0.95rem;
+}
+
+.report-summary-container th,
+.report-summary-container td {
+    padding: 0.8rem;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.report-summary-container th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.report-summary-container tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table-scroll {
+    overflow-x: auto;
+}

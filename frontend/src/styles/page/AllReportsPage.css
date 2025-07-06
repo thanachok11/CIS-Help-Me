@@ -1,0 +1,118 @@
+/* Container ของทั้งหน้า */
+.myreports-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* หัวข้อใหญ่ */
+.myreports-container h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+/* รายการแต่ละ report */
+.report-list {
+    list-style: none;
+    padding: 0;
+}
+
+.report-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 15px;
+    transition: box-shadow 0.3s;
+}
+
+.report-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.report-header {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.report-header strong {
+    color: #444;
+}
+
+/* สถานะ สีตามสถานะ */
+.status {
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.status.กำลังตรวจสอบ {
+    background-color: #ffe082;
+    color: #795548;
+}
+
+.status.กำลังดำเนินการ {
+    background-color: #81d4fa;
+    color: #01579b;
+}
+
+.status.เสร็จสิ้น {
+    background-color: #aed581;
+    color: #33691e;
+}
+
+/* แผนที่ */
+.report-map {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+/* รูปภาพเหตุการณ์ */
+.report-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* ปุ่มนำทาง */
+.navigate-btn {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navigate-btn:hover {
+    background-color: #1565c0;
+}
+
+/* dropdown เปลี่ยนสถานะ */
+.report-item select {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.report-item select:focus {
+    outline: none;
+    border-color: #2196f3;
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
+}
